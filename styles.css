@@ -1,0 +1,60 @@
+/*Index page styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(170, 168, 168);
+}
+
+.indexpage{
+
+    background-color: rgb(170, 168, 168);
+}
+
+.home-img{
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu_item{
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+.menu_item i{
+
+    padding-right: 15% ;
+
+
+}
+
+/*About page styles*/
+
+div{
+    margin: 20px;
+}
+
+.aboutblock{
+    display: flex;
+}
+.aboutimage{
+    padding-left: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.about-desc{
+    padding: 50px;
+    line-height: 30px;
+    align-items: center;
+}
